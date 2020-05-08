@@ -3,6 +3,7 @@ import Weather from './app_component/weather.component'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'weather-icons/css/weather-icons.css'
+import Form from './app_component/form.component';
 
 
 const API_key = "fea889a778a75eb0e579a6800b8b859f";
@@ -91,6 +92,7 @@ class App extends React.Component {
 	render() {
 		return(
 			<div className="App">
+				<Form />
 				<Weather 
 					city={this.state.city} 
 					country={this.state.country} temp_celsius={this.state.celsius}
