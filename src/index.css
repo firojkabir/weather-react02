@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./assets/matthieu-comoy-t0h0oKwS1xY-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  /* height: 100vh; */
 }
 
 code {
